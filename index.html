@@ -92,6 +92,31 @@
 
     h1 span { color: #E09F00; }
 
+    .sub {
+      font-size: 16px;
+      font-weight: 500;
+      color: var(--brown-700);
+      margin: -8px 0 20px;
+    }
+
+    .photo {
+      margin: 0 auto 22px;
+      width: 100%;
+      max-width: 280px;
+      aspect-ratio: 1 / 1;
+      border-radius: 24px;
+      overflow: hidden;
+      border: 5px solid var(--yellow-300);
+      box-shadow: 0 8px 20px rgba(180, 130, 0, 0.2);
+    }
+
+    .photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
     .divider {
       width: 56px;
       height: 4px;
@@ -125,6 +150,13 @@
     <div class="cake" aria-hidden="true">🎂</div>
     <div class="tag">HAPPY BIRTHDAY</div>
     <h1>Chúc mừng sinh nhật<br /><span>Diễm Quỳnh</span> nhaaa 🎂</h1>
+    <p class="sub">Cô bé 2k5 &lt;3 zỡ thưn &lt;3 zỡ mớn :* :*</p>
+
+    <figure class="photo">
+      <img src="photo.jpg" alt="Diễm Quỳnh" width="540" height="540" loading="eager"
+           onerror="this.parentElement.style.display='none'" />
+    </figure>
+
     <div class="divider"></div>
 
     <section class="wish">
@@ -132,7 +164,6 @@
       <p>Biết là cuộc sống đôi khi không dễ dàng, nhưng mong Quỳnh vẫn luôn giữ được sự nhiệt huyết và những điều đáng yêu của mình.</p>
       <p>Chúc Quỳnh học tập thật tốt, sớm đạt được những điều mà Quỳnh đang cố gắng nhé.</p>
       <p>Hy vọng một ngày gần nhất có dịp ngồi nói chuyện lại với nhau hehe ^^</p>
-     <p>-from htaing2026-</p>
     </section>
 
     <div class="footer" aria-hidden="true">🌼💛🌼</div>
